@@ -1,0 +1,20 @@
+\documentclass[UTF8]{ctexart}
+\begin{document}
+
+\begin{table}[H]
+\begin{tabular}{|rrr|}
+\hline
+直角边 $a$ & 直角边 $b$ & 斜边 $c$\\
+\hline
+3 & 4 & 5 \\
+5 & 12 & 13 \\
+\hline
+\end{tabular}%
+\qquad %2个空格
+($a^2 + b^2 = c^2$)
+\end{table}
+
+\end{document}
+
+%atex中，由tabular环境完成绘制表格功能，其参数[|rrr|]三个r表示共三列，且为右对齐，两条|表示在第一列前和第三列后有垂直表格线。在tabular环境内部，&用于分割行内各项，即分列，\\用于分行。表格中的横线由\hline绘制。
+%表格与插图一样，一般放在table环境里，其使用也大致相同，只是\caption得到的标题为”表“而不是”图“。
